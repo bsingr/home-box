@@ -9,13 +9,13 @@ The remote server must match the following conditions.
 ### Hardware
 
 * network interfaces
-  * wlan0 LAN
-  * eth0 LAN
-  * eth1 WAN
+  * `wlan0` LAN
+  * `eth0` LAN
+  * `eth1` WAN
 * hard drives
-	* /dev/sda
-  * /dev/sdb
-  * /dev/sdc
+  * `/dev/sda`
+  * `/dev/sdb`
+  * `/dev/sdc`
 
 ### Basic OS
 
