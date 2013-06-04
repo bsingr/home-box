@@ -54,6 +54,12 @@ namespace :deploy do
     puts "    not doing restart because not a Rails application."
   end
 
+  task :apt do
+    run "#{sudo} apt-get update"
+    run "#{sudo} apt-get install dnsmasq shorewall hostapd hdparm vim avahi-daemon"
+  end
+  after "deploy:update", "deploy:apt"
+
   task :root, roles: :app do
     root_dir = File.join(File.dirname(__FILE__), '..', 'root')
     Dir.glob(File.join(root_dir, '**', '*')).each do |file|
