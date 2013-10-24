@@ -34,3 +34,7 @@ The remote server must match the following conditions.
 ## License
 
 Copyright (c) 2013 Jens Bissinger. See [LICENSE.txt](LICENSE.txt).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dpree/home-box/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
